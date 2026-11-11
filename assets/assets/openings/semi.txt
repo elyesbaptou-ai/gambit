@@ -1,0 +1,184 @@
+# Débuts semi-ouverts : 1.e4, autre réponse que 1...e5
+
+@najdorf | Sicilienne Najdorf | B90 | semi | b | 3 | g
+idea: Les noirs échangent leur pion c contre le pion d blanc et gagnent une majorité au centre. ...a6 contrôle b5 et prépare ...e5 ou ...b5.
+tip: La défense de Fischer et Kasparov : combative, mais il faut connaître le plan contre chaque système blanc.
+pgn: e4 c5 {La Sicilienne : on se bat pour d4 depuis le flanc.} Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 {La Najdorf : un petit coup qui contrôle b5.}
+ {=Attaque anglaise} Be3 {Les blancs préparent f3, Dd2 et le grand roque.}
+ ({=Variante 6.Fg5} Bg5 e6 f4 Be7 Qf3 Qc7 O-O-O Nbd7 {Position explosive : les blancs attaquent au centre.})
+ ({=Variante classique 6.Fe2} Be2 e5 Nb3 Be7 O-O O-O Be3 Be6 {Les noirs tiennent la case d5.})
+ e5 Nb3 Be6 f3 Be7 Qd2 O-O O-O-O Nbd7 g4 b5 {Roques opposés : course d'attaque.}
+
+@dragon | Sicilienne Dragon | B76 | semi | b | 3 | g
+idea: Le fou en g7 crache le feu sur la grande diagonale. Contre l'attaque yougoslave, les deux rois sont attaqués : c'est une course.
+tip: Garde le fou g7 à tout prix et ouvre la colonne c avec ...Tc8 et ...Txc3 (le sacrifice de qualité typique).
+pgn: e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 {Le Dragon.}
+ {=Attaque yougoslave} Be3
+ ({=Variante classique} Be2 Bg7 O-O O-O Be3 Nc6 Nb3 Be6 f4 {Jeu plus calme et positionnel.})
+ Bg7 f3 O-O Qd2 Nc6
+ Bc4 ({=Variante 9.O-O-O} O-O-O d5 {La riposte moderne au centre.} exd5 Nxd5 Nxc6 bxc6 Bd4 Bxd4 Qxd4 Qb6)
+ Bd7 O-O-O Rc8 Bb3 Ne5 h4 h5 {Chaque temps compte : les noirs ouvrent la colonne c, les blancs la colonne h.}
+
+@accdragon | Sicilienne Dragon accéléré | B35 | semi | b | 2
+idea: Les noirs jouent ...g6 avant ...d6 : ils gagnent un temps pour frapper le centre avec ...d5 en un coup.
+tip: Contre l'étau de Maroczy (c4), sois patient : ...d6, ...Fd7 et ...a5 avant de chercher du jeu.
+pgn: e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 g6
+ Nc3 ({=Étau de Maroczy} c4 Bg7 Be3 Nf6 Nc3 O-O Be2 d6 O-O Bd7 {Les blancs serrent le centre, les noirs manœuvrent.})
+ Bg7 Be3 Nf6 Bc4 O-O Bb3 d6 f3 Bd7 Qd2 Nxd4 Bxd4 b5 {Contre-attaque immédiate à l'aile dame.}
+
+@sveshnikov | Sicilienne Sveshnikov | B33 | semi | b | 3
+idea: Les noirs chassent le cavalier avec ...e5 et acceptent un trou en d5 contre un jeu de pièces très actif et la paire de fous.
+tip: Le trou en d5 est le thème central : les blancs y installent un cavalier, les noirs jouent ...f5 autour.
+pgn: e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 Nf6 Nc3 e5 {Chasse le cavalier.} Ndb5 d6 Bg5 a6 Na3 b5 Bxf6 gxf6 Nd5 f5 {Pions doublés, mais une paire de fous et le centre.}
+
+@taimanov | Sicilienne Taimanov et Kan | B48 | semi | b | 2
+idea: Avec ...e6 et ...a6, les noirs restent flexibles : leurs pièces choisissent leurs cases selon le plan blanc.
+tip: La dame en c7 et le fou en b4 ou e7 : une Sicilienne plus calme et pleine de ressources.
+pgn: e4 c5 Nf3 e6 d4 cxd4 Nxd4
+ {=Taimanov} Nc6 ({=Variante Kan} a6 Bd3 Bc5 Nb3 Ba7 O-O Nc6 Qe2 d6 {Le fou a7 vise f2.})
+ Nc3 Qc7 Be3 a6 Qd2 Nf6 O-O-O Bb4 f3 Ne5 {Les noirs mettent la pression sur e4 et c3.}
+
+@scheveningen | Sicilienne Scheveningue | B80 | semi | b | 3
+idea: Les pions d6 et e6 forment un petit centre élastique qui contrôle d5 et e5.
+tip: Position compacte : les noirs attendent, puis contre-attaquent avec ...b5 ou ...d5. Méfie-toi de l'attaque Keres (g4).
+pgn: e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e6
+ Be2 ({=Attaque Keres} g4 h6 h4 Nc6 Rg1 h5 g5 Ng4 {Les blancs foncent à l'aile roi.})
+ a6 O-O Be7 f4 O-O Be3 Qc7 a4 Nc6 {Structure Scheveningue classique.}
+
+@alapin | Sicilienne Alapin | B22 | semi | w | 1 | g
+idea: Avec 2.c3 les blancs préparent d4 pour construire un centre de pions, en évitant la grande théorie sicilienne.
+tip: Excellente arme pratique contre la Sicilienne : un seul plan à connaître contre ...Cf6 et ...d5.
+pgn: e4 c5 c3 {Prépare d4.}
+ Nf6 ({=Variante 2...d5} d5 exd5 Qxd5 d4 Nf6 Nf3 e6 Be2 Nc6 O-O cxd4 cxd4 Be7 Nc3 Qd6 {Pion isolé blanc, mais des pièces actives.})
+ e5 Nd5 d4 cxd4 Nf3 Nc6 cxd4 d6 Bc4 Nb6 Bb5 dxe5 Nxe5 Bd7 {Position ouverte et un peu meilleure pour les blancs.}
+
+@smithmorra | Gambit Smith-Morra | B21 | gambit | w | 2 | g
+idea: Un pion sacrifié contre la Sicilienne pour un développement éclair et les colonnes c et d ouvertes.
+tip: Installe les tours en c1 et d1, la dame en e2. Connais le piège sibérien : ne joue pas h3 trop vite !
+pgn: e4 c5 d4 cxd4 c3 {Le gambit.}
+ dxc3 ({=Refus 3...Cf6} Nf6 e5 Nd5 cxd4 d6 Nf3 Nc6 Bc4 {Comme une Alapin.})
+ ({=Refus 3...d3} d3 Bxd3 Nc6 Nf3 d6 c4 g6 h3 Bg7 O-O)
+ Nxc3 Nc6 Nf3 d6 Bc4 e6 O-O
+ Nf6 ({=Piège sibérien} Qc7 Qe2 Nf6 Rd1 Ng4 h3 Nd4 {La dame blanche est attaquée et ...Dh2# menace : les blancs perdent la dame.})
+ Qe2 Be7 Rd1 e5 h3 O-O Be3 {Les tours blanches sur les colonnes ouvertes : compensation durable.}
+
+@grandprix | Attaque Grand Prix | B23 | semi | w | 2 | g
+idea: Contre la Sicilienne, les blancs jouent Cc3 et f4 pour une attaque directe à l'aile roi avec f5.
+tip: Le fou va en c4 ou b5, puis f4-f5 ouvre la colonne f vers le roi noir.
+pgn: e4 c5 Nc3 Nc6 f4 g6 Nf3 Bg7 Bc4 e6 f5 {La poussée typique.} Nge7 fxe6 dxe6 d3 O-O O-O {Colonne f ouverte pour les blancs.}
+
+@rossolimo | Sicilienne Rossolimo | B31 | semi | w | 2
+idea: Le fou en b5 attaque le cavalier c6 : les blancs sont prêts à doubler les pions noirs.
+tip: Pas besoin de connaître la théorie de la Sicilienne ouverte : on joue O-O, Te1, c3 et d4.
+pgn: e4 c5 Nf3 Nc6 Bb5
+ g6 ({=Variante 3...e6} e6 O-O Nge7 Re1 a6 Bf1 d5 exd5 Nxd5 {Les blancs visent d4.})
+ O-O Bg7 Re1 e5 Bxc6 dxc6 d3 Qe7 a4 Nf6 {Pions doublés noirs contre la paire de fous.}
+
+@moscow | Sicilienne, variante Moscou | B52 | semi | w | 1
+idea: 3.Fb5+ échange un fou contre le bon fou noir et évite toute la théorie de la Najdorf et du Dragon.
+tip: Après les échanges, l'étau de Maroczy (c4) donne une petite pression durable.
+pgn: e4 c5 Nf3 d6 Bb5+
+ Bd7 ({=Variante 3...Cd7} Nd7 d4 Nf6 Nc3 cxd4 Qxd4 e5 Qd3 h6 Be3)
+ Bxd7+ Qxd7 c4 Nc6 Nc3 Nf6 d4 cxd4 Nxd4 g6 f3 Bg7 Be3 O-O O-O {Étau de Maroczy : petit avantage d'espace.}
+
+@closedsicilian | Sicilienne fermée | B25 | semi | w | 2
+idea: Les blancs gardent le centre fermé et préparent une attaque lente à l'aile roi avec f4-f5.
+tip: Plan type : f4, Cf3, O-O puis f5 et g4. Les noirs avancent à l'aile dame avec ...b5.
+pgn: e4 c5 Nc3 Nc6 g3 g6 Bg2 Bg7 d3 d6 f4 e6 Nf3 Nge7 O-O O-O Be3 Nd4 {Le cavalier d4 gêne beaucoup.}
+
+@french | Défense française | C00 | semi | b | 1 | g
+idea: Les noirs préparent ...d5 avec ...e6 : le pion d5 est bien défendu. En échange, le fou c8 est enfermé derrière ses pions.
+tip: Quand les blancs avancent e5, attaque la chaîne de pions à sa base : ...c5, ...Cc6 et ...Db6 visent d4.
+pgn: e4 e6 {Prépare ...d5.} d4 d5 {Attaque e4.}
+ {=Variante classique} Nc3
+ ({=Variante d'avance} e5 c5 c3 Nc6 Nf3 Qb6 a3 c4 Nbd2 Na5 {Les noirs bloquent l'aile dame.})
+ ({=Variante d'échange} exd5 exd5 Nf3 Nf6 Bd3 Bd6 O-O O-O {Symétrie : la position est facile pour les noirs.})
+ ({=Variante Tarrasch} Nd2 c5 exd5 exd5 Ngf3 Nc6 Bb5 Bd6 dxc5 Bxc5 O-O Nge7 {Le pion isolé noir est actif.})
+ Nf6 ({=Variante Winawer} Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7 Qg4 O-O Bd3 Nbc6 {Les noirs jouent à l'aile dame, les blancs sur le roi.})
+ ({=Variante Rubinstein} dxe4 Nxe4 Nd7 Nf3 Ngf6 Nxf6+ Nxf6 Bd3 c5 dxc5 Bxc5 {Simple et solide.})
+ Bg5 ({=Variante Steinitz} e5 Nfd7 f4 c5 Nf3 Nc6 Be3 a6 Qd2 b5)
+ Be7 e5 Nfd7 Bxe7 Qxe7 f4 O-O Nf3 c5 {Contre-attaque classique sur d4.}
+
+@frenchadvance | Française, variante d'avance | C02 | semi | w | 1 | g
+idea: Les blancs gagnent de l'espace avec e5 : le cavalier g8 n'a plus f6. Les noirs vont attaquer d4 de tous les côtés.
+tip: Soutiens d4 avec c3 et Cf3. Contre ...Db6 et ...Fd7-b5, connais les réponses.
+pgn: e4 e6 d4 d5 e5 {Gain d'espace.} c5 {Attaque la base de la chaîne.} c3
+ Nc6 ({=Variante ...Db6 directe} Qb6 Nf3 Bd7 Be2 Bb5 O-O Bxe2 Qxe2 Qa6 {Les noirs échangent leur mauvais fou.})
+ Nf3 Qb6 ({=Variante ...Fd7} Bd7 Be2 Nge7 O-O Ng6 g3 Be7 h4 {Les blancs chassent le cavalier g6.})
+ a3 {Prépare b4.} ({=Gambit Milner-Barry} Bd3 cxd4 cxd4 Bd7 O-O Nxd4 Nxd4 Qxd4 Nc3 {Un pion pour une attaque rapide.})
+ c4 Nbd2 Na5 Be2 Bd7 O-O Ne7 {Centre bloqué : les blancs jouent à l'aile roi.}
+
+@carokann | Défense Caro-Kann | B12 | semi | b | 1 | g
+idea: Comme la Française, mais le fou c8 sort avant ...e6 : structure très solide, sans pièce enfermée.
+tip: Une des meilleures défenses pour débuter contre 1.e4 : peu de faiblesses, des plans clairs contre chaque variante.
+pgn: e4 c6 {Prépare ...d5.}
+ d4 ({=Deux cavaliers} Nc3 d5 Nf3 Bg4 h3 Bxf3 Qxf3 e6 d3 Nf6 Be2 Be7 O-O O-O {Les blancs ont la paire de fous, les noirs une structure saine.})
+ d5
+ {=Variante classique} Nc3
+ ({=Variante d'avance} e5 Bf5 {Le fou sort avant ...e6.} Nf3 ({=Attaque Van der Wiel} Nc3 e6 g4 Bg6 Nge2 c5 h4 h5 Nf4 Bh7) e6 Be2 c5 Be3 Nd7 O-O Ne7 c4 {Une Française améliorée.})
+ ({=Variante d'échange} exd5 cxd5 Bd3 ({=Attaque Panov} c4 Nf6 Nc3 e6 Nf3 Be7 cxd5 Nxd5 Bd3 Nc6 O-O O-O {Pion isolé blanc contre blocus noir.}) Nc6 c3 Nf6 Bf4 Bg4 Qb3 Qd7 Nd2 e6)
+ ({=Variante fantaisie} f3 dxe4 fxe4 e5 Nf3 exd4 Bc4 Nf6 O-O Be7 {Jeu ouvert et tactique.})
+ dxe4 Nxe4
+ Bf5 ({=Variante Karpov} Nd7 Ng5 Ngf6 Bd3 e6 N1f3 Bd6 Qe2 h6 Ne4 Nxe4 Qxe4 {Les noirs vont libérer leur jeu avec ...c5.})
+ Ng3 Bg6 h4 h6 Nf3 Nd7 h5 Bh7 Bd3 Bxd3 Qxd3 e6 Bd2 Ngf6 O-O-O Be7 {Les noirs sont solides, les blancs ont un peu plus d'espace.}
+
+@caroadvance | Caro-Kann, variante d'avance | B12 | semi | w | 2 | g
+idea: Les blancs prennent de l'espace avec e5. Le système court (Cf3, Fe2, O-O) est simple et efficace.
+tip: Contre ...c5, n'aie pas peur de reprendre en d4 avec le cavalier : il est très bien placé.
+pgn: e4 c6 d4 d5 e5 Bf5 ({=Variante 3...c5} c5 dxc5 e6 Be3 Nd7 {Les blancs essaient de garder c5.})
+ Nf3 e6 Be2 c5 Be3 cxd4 Nxd4 Ne7 O-O Nbc6 {Le cavalier d4 tient le centre.}
+
+@scandinavian | Défense scandinave | B01 | semi | b | 1 | g
+idea: Les noirs cassent le centre dès le premier coup. La dame sort tôt mais trouve un bon poste en a5 ou d6.
+tip: Facile à apprendre : toujours la même structure (pions c6 et e6), quel que soit le jeu blanc.
+pgn: e4 d5 {Attaque e4 tout de suite.} exd5
+ Qxd5 ({=Variante 2...Cf6} Nf6 d4 Nxd5 ({=Gambit portugais} Bg4 f3 Bf5 Bb5+ Nbd7 c4 e6 dxe6 Bxe6 {Un pion pour un développement rapide.}) c4 Nb6 Nf3 g6 Nc3 Bg7 {Les noirs attaquent le centre blanc avec leurs pièces.})
+ Nc3 {Gagne un temps sur la dame.}
+ {=Variante ...Da5} Qa5
+ ({=Variante ...Dd6} Qd6 d4 Nf6 Nf3 a6 g3 Bg4 Bg2 Nc6 O-O O-O-O {Roques opposés.})
+ ({=Retraite en d8} Qd8 d4 Nf6 Nf3 Bg4 h3 Bxf3 Qxf3 c6 Be3 e6)
+ d4 Nf6 Nf3 c6 Bc4 Bf5 Bd2 e6 Qe2 Bb4 O-O-O Nbd7 {Structure solide c6-e6 : plan simple pour les noirs.}
+
+@alekhine | Défense Alekhine | B04 | semi | b | 3
+idea: Les noirs provoquent les pions blancs pour les attirer en avant, puis attaquent ce centre trop étendu.
+tip: Hypermoderne : un grand centre peut être une cible. Contre l'attaque des quatre pions, frappe vite avec ...dxe5 et ...Cc6.
+pgn: e4 Nf6 {Attaque e4.}
+ e5 ({=Variante 2.Cc3} Nc3 d5 e5 Nfd7 d4 e6 {Structure française.})
+ Nd5 d4 d6
+ {=Variante moderne} Nf3
+ ({=Attaque des quatre pions} c4 Nb6 f4 dxe5 fxe5 Nc6 Be3 Bf5 Nc3 e6 Nf3 Be7 {Le centre blanc est grand mais fragile.})
+ Bg4 Be2 e6 O-O Be7 c4 Nb6 h3 Bh5 Nc3 O-O Be3 d5 {Les noirs bloquent le centre.}
+
+@pirc | Défense Pirc | B08 | semi | b | 2
+idea: Les noirs laissent le centre aux blancs et se développent en fianchetto, avant de frapper avec ...e5 ou ...c5.
+tip: Souple, mais attention aux attaques rapides avec Fe3, Dd2 et Fh6.
+pgn: e4 d6 d4 Nf6 Nc3 g6
+ {=Variante classique} Nf3
+ ({=Attaque autrichienne} f4 Bg7 Nf3 O-O Bd3 Na6 O-O c5 d5 Bg4 {Les noirs attaquent le centre de pions.})
+ ({=Attaque 150} Be3 Bg7 Qd2 c6 f3 b5 Nge2 Nbd7 Bh6 Bxh6 Qxh6 Bb7 {Les blancs échangent le fou g7.})
+ Bg7 Be2 O-O O-O c6 a4 Nbd7 {Les noirs préparent ...e5.}
+
+@modern | Défense moderne | B06 | semi | b | 3
+idea: Encore plus flexible que la Pirc : le cavalier g8 attend, les noirs gardent toutes leurs options.
+tip: Exige du doigté : on cède beaucoup d'espace au début, puis on attaque avec ...b5 ou ...e5.
+pgn: e4 g6 d4 Bg7 Nc3 d6 Be3 a6 Qd2 Nd7 f4 b5 {Contre-jeu à l'aile dame.}
+
+@hippo | Hippopotame | B06 | semi | b | 2 | g
+idea: Les noirs placent tous leurs pions sur la 6e rangée et leurs fous en fianchetto : une carapace solide qui attend l'attaque.
+tip: Un système universel : les mêmes coups contre presque tout. Patience, puis ...e5 ou ...c5 au bon moment.
+pgn: e4 g6 d4 Bg7 Nc3 d6 Nf3 e6 Be2 Ne7 O-O b6 Be3 Bb7 Qd2 Nd7 a4 a6 h3 h6 {La forme complète de l'hippopotame.}
+
+@owen | Défense Owen | B00 | semi | b | 2
+idea: Le fou en b7 vise e4 dès le 2e coup. Les noirs attaquent le centre de loin.
+tip: Attention au fou d3 blanc qui protège e4 et vise h7.
+pgn: e4 b6 d4 Bb7 Bd3 e6 Nf3 c5 c3 Nf6 Qe2 {Les blancs ont un centre solide.}
+
+@nimzowitschdef | Défense Nimzowitsch | B00 | semi | b | 2
+idea: 1...Cc6 attaque d4 tout de suite et invite les blancs à prendre le centre.
+tip: Peu jouée, donc les adversaires la connaissent mal. Le clouage ...Fg4 est souvent utile.
+pgn: e4 Nc6 Nf3 d6 d4 Nf6 Nc3 Bg4 Be2 e6 O-O Be7 {Développement harmonieux.}
+
+@stgeorge | Défense Saint-Georges | B00 | semi | b | 2
+idea: 1...a6 puis ...b5 : les noirs se développent à l'aile dame avant de toucher au centre.
+tip: Une ouverture de surprise : l'adversaire sort de sa préparation dès le 1er coup.
+pgn: e4 a6 d4 b5 Nf3 Bb7 Bd3 Nf6 Qe2 e6 a4 c5 {Contre-attaque immédiate.}

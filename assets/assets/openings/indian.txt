@@ -1,0 +1,102 @@
+# Défenses indiennes et hollandaises : 1.d4 Cf6 / 1.d4 f5
+
+@nimzo | Défense nimzo-indienne | E32 | indian | b | 2
+idea: Le fou cloue le cavalier c3 pour empêcher e4. Les noirs sont prêts à donner ce fou pour doubler les pions blancs.
+tip: Contrôler le centre avec les pièces plutôt qu'avec les pions : l'idée hypermoderne.
+pgn: d4 Nf6 c4 e6 Nc3 Bb4 {Le clouage.}
+ {=Variante Rubinstein} e3
+ ({=Variante classique} Qc2 O-O a3 Bxc3+ Qxc3 b6 Bg5 Bb7 f3 h6 Bh4 d5 {Les blancs gardent la paire de fous.})
+ ({=Variante Sämisch} a3 Bxc3+ bxc3 c5 e3 Nc6 Bd3 O-O Ne2 b6 e4 Ne8 {Les noirs bloquent les pions doublés.})
+ ({=Variante Leningrad} Bg5 h6 Bh4 c5 d5 d6 e3 exd5 cxd5 Nbd7)
+ O-O Bd3 d5 Nf3 c5 O-O Nc6 a3 Bxc3 bxc3 dxc4 Bxc4 Qc7 {Les noirs visent les pions blancs.}
+
+@queensindian | Défense ouest-indienne | E15 | indian | b | 2
+idea: Le fou en b7 (ou a6) surveille la case e4. Jeu calme et positionnel.
+tip: La lutte se joue pour une seule case : e4.
+pgn: d4 Nf6 c4 e6 Nf3 b6
+ g3 ({=Variante Petrossian} a3 Bb7 Nc3 d5 cxd5 Nxd5 Qc2 Nxc3 bxc3 Be7 e4 O-O {Grand centre blanc.})
+ {=Variante moderne} Ba6 ({=Variante classique} Bb7 Bg2 Be7 O-O O-O Nc3 Ne4 Qc2 Nxc3 Qxc3 {Égalité solide.})
+ b3 Bb4+ Bd2 Be7 Bg2 c6 Bc3 d5 Nbd2 Nbd7 O-O O-O {Position équilibrée.}
+
+@bogo | Défense bogo-indienne | E11 | indian | b | 2
+idea: Un échec en b4 qui force les blancs à décider tôt comment bloquer, sans laisser le cavalier c3 se développer.
+tip: Simple et solide : les noirs échangent souvent ce fou et jouent ...d6 et ...e5.
+pgn: d4 Nf6 c4 e6 Nf3 Bb4+
+ Bd2 ({=Variante 4.Cbd2} Nbd2 b6 a3 Bxd2+ Qxd2 Bb7 e3 O-O)
+ Qe7 g3 Nc6 Nc3 Bxc3 Bxc3 Ne4 Rc1 O-O Bg2 d6 d5 Nxc3 Rxc3 Nb8 {Le cavalier se replace par d7.}
+
+@kingsindian | Défense est-indienne | E97 | indian | b | 3 | g
+idea: Les noirs laissent les blancs bâtir un grand centre, puis l'attaquent avec ...e5. Si le centre se ferme, attaque à l'aile roi avec ...f5.
+tip: Courses d'attaques : les blancs à l'aile dame (c5), les noirs sur le roi (...f5-f4, ...g5-g4).
+pgn: d4 Nf6 c4 g6 Nc3 Bg7 e4 d6
+ {=Variante classique} Nf3
+ ({=Variante Sämisch} f3 O-O Be3 e5 d5 Nh5 Qd2 f5 O-O-O Nd7 {Roques opposés.})
+ ({=Attaque des quatre pions} f4 O-O Nf3 c5 d5 e6 Be2 exd5 cxd5 Bg4 O-O Nbd7 {Structure Benoni.})
+ ({=Système Makogonov} h3 O-O Nf3 e5 d5 a5 Bg5 Na6)
+ O-O Be2 e5 O-O Nc6 d5 Ne7 Ne1 Nd7 Be3 f5 f3 f4 Bf2 g5 {L'attaque à l'aile roi est lancée !}
+
+@grunfeld | Défense Grünfeld | D85 | indian | b | 3
+idea: Les noirs donnent le centre puis le bombardent avec le fou g7, ...c5 et ...Cc6.
+tip: Le centre blanc est-il fort ou faible ? Toute la partie tourne autour du pion d4.
+pgn: d4 Nf6 c4 g6 Nc3 d5 {Attaque le centre tout de suite.}
+ {=Variante d'échange} cxd5
+ ({=Variante russe} Nf3 Bg7 Qb3 dxc4 Qxc4 O-O e4 Bg4 Be3 Nfd7 {Les noirs attaquent le centre.})
+ ({=Variante 4.Ff4} Bf4 Bg7 e3 O-O Rc1 c5 dxc5 Be6)
+ Nxd5 e4 Nxc3 bxc3 Bg7
+ Nf3 ({=Variante 7.Fc4} Bc4 c5 Ne2 Nc6 Be3 O-O O-O)
+ c5 Rb1 O-O Be2 cxd4 cxd4 Qa5+ Bd2 Qxa2 O-O {Un pion pour les noirs, de l'initiative pour les blancs.}
+
+@benoni | Benoni moderne | A70 | indian | b | 3
+idea: Structure déséquilibrée : majorité noire à l'aile dame, majorité blanche au centre. Jeu très tranchant.
+tip: Les noirs jouent ...b5, les blancs e5 : le premier qui réussit sa poussée prend l'avantage.
+pgn: d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 e4 g6
+ Nf3 ({=Attaque Taimanov} f4 Bg7 Bb5+ Nfd7 a4 O-O Nf3 Na6 O-O Nb4 {Les blancs visent e5.})
+ Bg7 Be2 O-O O-O Re8 Nd2 Na6 f3 Nc7 a4 b6 {Les noirs préparent ...a6 et ...b5.}
+
+@benko | Gambit Benko | A58 | gambit | b | 2
+idea: Un pion sacrifié pour deux colonnes ouvertes (a et b) et une pression durable à l'aile dame.
+tip: Gambit positionnel : la compensation dure jusqu'en finale. Fou g7, tours a8 et b8.
+pgn: d4 Nf6 c4 c5 d5 b5 {Le gambit.} cxb5 a6
+ bxa6 ({=Refus 5.e3} e3 g6 Nc3 Bg7 a4 O-O)
+ Bxa6 Nc3 d6 e4 Bxf1 Kxf1 g6 g3 Bg7 Kg2 O-O Nf3 Nbd7 {Le plan : ...Da5, ...Tfb8 et pression sur a2 et b2.}
+
+@dutch | Défense hollandaise | A87 | indian | b | 2 | g
+idea: Le pion f5 contrôle e4 et annonce une attaque à l'aile roi. Deux grands systèmes : Leningrad (...g6) et Stonewall (...e6, ...d5).
+tip: Affaiblit un peu le roi : la diagonale h5-e8 et la case e6 sont sensibles. Méfie-toi du gambit Staunton (2.e4).
+pgn: d4 f5 {La hollandaise.}
+ g3 ({=Gambit Staunton} e4 fxe4 Nc3 Nf6 Bg5 Nc6 d5 Ne5 Qd4 Nf7 Bxf6 exf6 Nxe4 {Les blancs récupèrent le pion avec du jeu.})
+ Nf6 Bg2
+ {=Variante Leningrad} g6 ({=Stonewall} e6 Nf3 d5 O-O Bd6 c4 c6 b3 Qe7 Ne5 O-O {Le mur c6-d5-e6-f5.})
+ Nf3 Bg7 O-O O-O c4 d6 Nc3 Qe8 d5 a5 {La dame ira en f7 ou h5.}
+
+@budapest | Gambit de Budapest | A52 | gambit | b | 2
+idea: Les noirs sacrifient e5 puis le récupèrent avec le cavalier, en se développant vite.
+tip: Plein de pièges, dont le mat étouffé de Kieninger : après 7.a3 Cgxe5, si 8.axb4 ?? alors ...Cd3# !
+pgn: d4 Nf6 c4 e5 {Le gambit.} dxe5 Ng4
+ Bf4 ({=Variante 4.Cf3} Nf3 Bc5 e3 Nc6 Be2 Ngxe5 Nxe5 Nxe5 O-O O-O {Les noirs ont récupéré le pion.})
+ Nc6 Nf3 Bb4+
+ Nbd2 ({=Variante 6.Cc3} Nc3 Qe7 Qd5 Bxc3+ bxc3 f6 exf6 Nxf6 Qd3 d6)
+ Qe7 a3 Ngxe5
+ Nxe5 ({=Piège Kieninger} axb4 Nd3# {Mat étouffé : le pion e2 est cloué !})
+ Nxe5 e3 Bxd2+ Qxd2 d6 {Égalité : les noirs ont rendu le pion.}
+
+@oldindian | Défense vieille-indienne | A53 | indian | b | 1
+idea: Les noirs jouent ...d6 et ...e5 sans fianchetto : une position solide et facile à comprendre.
+tip: Le fou f8 va en e7. Plan simple : ...c6, ...Dc7 et parfois ...exd4.
+pgn: d4 Nf6 c4 d6 Nc3 e5 Nf3 Nbd7 e4 Be7 Be2 O-O O-O c6 {Développement solide.}
+
+@trompowsky | Attaque Trompowsky | A45 | indian | w | 2
+idea: Le fou sort au 2e coup pour menacer d'abîmer les pions noirs. Évite toute la théorie des indiennes.
+tip: Arme de surprise : l'adversaire sort de sa préparation dès le 2e coup.
+pgn: d4 Nf6 Bg5 {La Trompowsky.}
+ Ne4 ({=Variante 2...e6} e6 e4 h6 Bxf6 Qxf6 Nc3 d6 Qd2 g5)
+ ({=Variante 2...d5} d5 Bxf6 exf6 e3 Bd6 c4 dxc4 Bxc4 O-O Nc3 {Pions noirs doublés contre la paire de fous.})
+ Bf4 c5 f3 Qa5+ c3 Nf6 d5 Qb6 Bc1 {Le fou rentre défendre b2.}
+
+@englund | Gambit Englund | A40 | gambit | b | 2 | g
+idea: 1...e5 contre 1.d4 : un gambit douteux mais rempli de pièges, dont un mat en c1.
+tip: Avec les blancs, 4.Cc3 ! évite tout. Avec les noirs, espère 4.Ff4 ? et le piège ...Db4+.
+pgn: d4 e5 {Le gambit Englund.} dxe5 Nc6 Nf3 Qe7 {Prépare un piège.}
+ Bf4 ({=La bonne réponse} Nc3 Nxe5 Nxe5 Qxe5 e4 {Les blancs ont un beau centre et de l'avance.})
+ ({=Variante 4.Dd5} Qd5 f6 exf6 Nxf6 Qb5 d5)
+ Qb4+ Bd2 Qxb2 Bc3 Bb4 Qd2 Bxc3 Qxc3 Qc1# {Mat !}

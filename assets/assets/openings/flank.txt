@@ -1,0 +1,56 @@
+# Débuts de flanc
+
+@english | Ouverture anglaise | A20 | flank | w | 2 | g
+idea: Le pion c4 contrôle d5 depuis le flanc. Les blancs se développent en fianchetto (g3, Fg2) et gardent le centre en réserve.
+tip: Contre 1...e5, c'est une Sicilienne avec les couleurs inversées et un temps de plus. Le fou g2 est la pièce clé.
+pgn: c4 {L'anglaise.}
+ {=Sicilienne inversée} e5
+ ({=Anglaise symétrique} c5 Nc3 Nc6 g3 g6 Bg2 Bg7 Nf3 Nf6 O-O O-O d4 cxd4 Nxd4 {Les blancs ouvrent le centre au bon moment.})
+ ({=Attaque Mikenas} Nf6 Nc3 e6 e4 d5 e5 d4 exf6 dxc3 bxc3 Qxf6 d4 {Jeu très tactique.})
+ ({=Transposition au gambit dame} e6 Nc3 d5 d4 Nf6 cxd5 exd5 Bg5)
+ Nc3 Nf6 Nf3 Nc6 g3 d5 cxd5 Nxd5 Bg2 Nb6 O-O Be7 d3 O-O a3 {Plan : b4-b5 et pression sur la colonne c.}
+
+@reti | Ouverture Réti | A09 | flank | w | 2
+idea: Les blancs attaquent d5 depuis les flancs, sans engager leurs pions centraux.
+tip: Hypermoderne : double fianchetto, puis on frappe le centre plus tard.
+pgn: Nf3 d5 c4 {Attaque d5 de côté.}
+ e6 ({=Poussée ...d4} d4 g3 Nc6 Bg2 e5 d3 Nf6 O-O Be7 e3 {Les blancs attaquent le pion d4.})
+ ({=Variante ...c6} c6 b3 Nf6 g3 Bf5 Bg2 e6 O-O Nbd7 Bb2 h6 d3)
+ ({=Réti accepté} dxc4 e3 Be6 Na3 c5 Nxc4 Nc6 {Les blancs récupèrent le pion.})
+ g3 Nf6 Bg2 Be7 O-O O-O b3 c5 Bb2 Nc6 e3 b6 Nc3 Bb7 {Double fianchetto contre centre classique.}
+
+@kia | Attaque est-indienne | A07 | flank | w | 1 | g
+idea: Les blancs jouent le schéma de l'est-indienne avec un temps de plus : Cf3, g3, Fg2, O-O, d3, Cbd2 et e4.
+tip: Un système universel : les mêmes coups contre presque tout, puis attaque avec e5, Cf1 et h4.
+pgn: Nf3 ({=Contre la française} e4 e6 d3 d5 Nd2 Nf6 Ngf3 c5 g3 Nc6 Bg2 Be7 O-O O-O Re1 {Puis e5 et attaque.})
+ d5 g3 Nf6 Bg2
+ e6 ({=Contre ...c6 et ...Fg4} c6 O-O Bg4 d3 Nbd7 Nbd2 e5 e4)
+ ({=Contre le fianchetto} g6 O-O Bg7 d3 O-O Nbd2 c5 e4)
+ O-O Be7 d3 O-O Nbd2 c5 e4 Nc6 Re1 b5 e5 Nd7 Nf1 a5 h4 {Attaque typique à l'aile roi.}
+
+@bird | Ouverture Bird | A03 | flank | w | 2 | g
+idea: Une hollandaise inversée : f4 contrôle e5 et prépare une attaque à l'aile roi avec De1-h4.
+tip: Affaiblit un peu le roi. Contre le gambit From (1...e5), ne joue jamais 4.Cc3 ?? à cause du mat en g3.
+pgn: f4 {La Bird.}
+ d5 ({=Gambit From} e5 fxe5 d6 exd6 Bxd6 Nf3 ({=Le piège} Nc3 Qh4+ g3 Qxg3+ hxg3 Bxg3# {Mat !}) g5 d4 g4 Ne5 Bxe5 dxe5 Qxd1+ Kxd1 Nc6 {Les noirs récupèrent le pion.})
+ Nf3 Nf6 e3 g6 Be2 Bg7 O-O O-O d3 c5 Qe1 Nc6 Qh4 {La dame rejoint l'attaque.}
+
+@larsen | Ouverture Larsen | A01 | flank | w | 2
+idea: Le fou en b2 vise e5 et la grande diagonale dès le début.
+tip: Originale et saine : laisse le centre aux noirs pour mieux l'attaquer.
+pgn: b3 e5 ({=Variante 1...d5} d5 Bb2 Nf6 e3 e6 Nf3 Be7 c4 O-O Be2 c5 O-O Nc6)
+ Bb2 Nc6 e3 d5 Bb5 Bd6 f4 Qh4+ g3 Qe7 Nf3 f6 {Lutte pour la case e5.}
+
+@polish | Ouverture polonaise (Orang-outan) | A00 | flank | w | 2 | g
+idea: 1.b4 ! Le pion b prend de l'espace et le fou ira en b2 viser e5 et la grande diagonale.
+tip: Une ouverture de surprise : les adversaires la connaissent mal. Le pion b4 peut être attaqué par ...Fxb4 ou ...a5.
+pgn: b4 {L'orang-outan.}
+ e5 ({=Variante 1...d5} d5 Bb2 Nf6 e3 e6 a3 c5 b5 {Le pion b5 gagne de l'espace.})
+ Bb2 Bxb4 Bxe5 Nf6 e3 O-O Nf3 d5 Be2 {Développement normal, chaque camp a pris un pion.}
+
+@grob | Attaque Grob | A00 | flank | w | 3 | g
+idea: 1.g4 ! Provocante : le fou g2 vise d5 et b7, mais l'aile roi blanche est affaiblie.
+tip: Très risquée. Surtout ne pousse jamais f3 en plus de g4, sinon c'est le mat de l'imbécile.
+pgn: g4 {La Grob.}
+ d5 ({=Attention au mat !} e5 f3 Qh4# {Le mat de l'imbécile : ne pousse jamais f3 et g4 ensemble !})
+ Bg2 Bxg4 c4 c6 cxd5 cxd5 Qb3 {Double attaque sur b7 et d5 : l'idée du gambit Grob.}

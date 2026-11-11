@@ -1,0 +1,198 @@
+﻿# Débuts ouverts : 1.e4 e5
+# Format : @id | Nom | ECO | famille | camp (w/b) | niveau | g = vue chez GothamChess
+# pgn : les parenthèses donnent les autres réponses possibles au coup qui les précède, {=Nom} nomme une variante.
+
+@italian | Partie italienne | C50 | open | w | 1 | g
+idea: Le fou en c4 vise f7, le point faible des noirs. Les blancs préparent d4 avec c3, roquent vite et attaquent au centre.
+tip: Contre chaque réponse noire, garde les principes : développe, roque, puis frappe au centre avec d4 au bon moment.
+pgn: e4 e5 Nf3 {Attaque e5 et développe une pièce.} Nc6 {Défend e5.} Bc4 {Le fou vise f7, défendu seulement par le roi.}
+ {=Giuoco Piano} Bc5 {Les noirs copient : leur fou vise f2.}
+ ({=Défense des deux cavaliers} Nf6 {Contre-attaque e4 au lieu de copier.} Ng5 {Attaque f7 deux fois !} d5 {Seule bonne défense : coupe la diagonale du fou.} exd5 Na5 {Chasse le fou. Surtout pas 5...Cxd5 ?! qui autorise la Fegatello.} Bb5+ c6 dxc6 bxc6 Be2 h6 Nf3 e4 Ne5 Bd6 {Un pion de moins pour les noirs, mais une grosse avance de développement.})
+ ({=Défense hongroise} Be7 {Solide mais passif.} d4 d6 d5 {Les blancs prennent de l'espace.} Nb8 Bd3 Nf6 c4 O-O Nc3)
+ c3 {Prépare d4 pour prendre le centre.} Nf6 {Attaque e4.}
+ {=Giuoco Pianissimo} d3 {Version calme et moderne : on protège e4 et on manœuvre.}
+ ({=Attaque centrale} d4 {La version tranchante.} exd4 cxd4 Bb4+ {Échec gênant.} Bd2 Bxd2+ Nbxd2 d5 {Les noirs frappent le centre tout de suite.} exd5 Nxd5 Qb3 Nce7 O-O O-O {Pion isolé en d4 pour les blancs, mais des pièces très actives.})
+ d6 O-O O-O Re1 a6 {Garde une case de retraite au fou en a7.} Bb3 Ba7 Nbd2 {Le cavalier ira en f1 puis g3 : la manœuvre typique.} Be6 Nf1 Bxb3 Qxb3 Qd7 Ng3 {Les blancs préparent d4 et une attaque à l'aile roi.}
+
+@friedliver | Attaque Fegatello (Fried Liver) | C57 | open | w | 2 | g
+idea: Contre la défense des deux cavaliers, Cg5 attaque f7. Si les noirs reprennent mal en d5, le sacrifice Cxf7 attire le roi noir au centre.
+tip: Le roi noir en e6 doit défendre le cavalier cloué en d5 : chaque coup blanc ajoute un attaquant. Si les noirs jouent bien (5...Ca5), joue simplement.
+pgn: e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 {Deux pièces sur f7.} d5 exd5
+ {=Le piège} Nxd5 {L'erreur naturelle : le cavalier d5 devient une cible.}
+ ({=La bonne défense} Na5 {Les noirs chassent le fou et rendent un pion contre du jeu.} Bb5+ c6 dxc6 bxc6 Be2 h6 Nf3 e4 Ne5 Bd6 d4 exd3 Nxd3 Qc7 {Compensation sérieuse pour les noirs : reste prudent.})
+ ({=Défense Ulvestad} b5 Bf1 h6 Nxf7 Kxf7 dxc6 Bc5 Be2)
+ Nxf7 {Sacrifice !} Kxf7 Qf3+ {Échec qui attaque aussi le cavalier d5.} Ke6 {Seul coup pour garder le cavalier.} Nc3 {Le cavalier d5 cloué est attaqué une fois de plus.}
+ {=Défense principale} Ncb4
+ ({=Défense ...Ce7} Nce7 d4 c6 Bg5 h6 Bxe7 Bxe7 O-O-O {Toutes les pièces blanches convergent vers le roi noir.})
+ a3 Nxc2+ Kd1 Nxa1 Nxd5 {Les blancs ont une tour de moins mais le roi noir est perdu au milieu : attaque gagnante en pratique.}
+
+@twoknights | Défense des deux cavaliers | C55 | open | b | 2 | g
+idea: Contre l'italienne, les noirs contre-attaquent e4 au lieu de copier. Après 4.Cg5, ils rendent un pion avec ...d5 et ...Ca5 pour un développement rapide.
+tip: Après 4.Cg5 d5 5.exd5, joue 5...Ca5 ! et jamais 5...Cxd5 ?! qui autorise la Fegatello.
+pgn: e4 e5 Nf3 Nc6 Bc4 Nf6 {Attaque e4.}
+ {=Attaque Cg5} Ng5 {Les blancs attaquent f7.}
+ ({=Variante calme 4.d3} d3 Be7 O-O O-O Re1 d6 a4 {Position d'italienne lente.})
+ ({=Gambit écossais 4.d4} d4 exd4 O-O Nxe4 Re1 d5 Bxd5 Qxd5 Nc3 Qa5 Nxe4 Be6 {Les noirs rendent le matériel et tiennent.})
+ d5 exd5 Na5 {Chasse le fou avec gain de temps.} Bb5+ c6 dxc6 bxc6 Be2 h6 Nf3 e4 Ne5 Bd6 {Les noirs ont un pion de moins mais tout leur jeu est actif.}
+
+@traxler | Contre-attaque Traxler | C57 | gambit | b | 3 | g
+idea: Contre 4.Cg5, les noirs ignorent la menace sur f7 et jouent 4...Fc5 : si les blancs prennent en f7, le roi blanc se fait attaquer à son tour.
+tip: Un gambit de pure tactique : il faut connaître les coups par cœur. Contre 5.Fxf7+ les noirs n'ont qu'une compensation moyenne.
+pgn: e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 Bc5 {Ignore la menace sur f7 !}
+ Nxf7 {Le cavalier prend la dame et la tour...}
+ ({=Réponse sûre} Bxf7+ Ke7 Bb3 Rf8 O-O d6 c3 {Un pion de plus pour les blancs, mais les noirs ont la colonne f.})
+ Bxf2+ {...mais les noirs attaquent en premier.}
+ Kxf2 ({=Variante 6.Rf1} Kf1 Qe7 Nxh8 d5 exd5 Nd4 {La dame, le cavalier et le fou foncent sur le roi blanc.})
+ Nxe4+ Kg1 Qh4 g3 Nxg3 hxg3 Qxg3+ Kf1 Rf8 {Attaque foudroyante : un seul faux pas blanc et c'est mat.}
+
+@ruylopez | Partie espagnole | C84 | open | w | 2 | g
+idea: Le fou en b5 attaque le cavalier qui défend e5. Les blancs visent un avantage durable au centre avec c3 et d4, et des manœuvres de cavalier (Cbd2-f1-g3).
+tip: L'ouverture la plus riche des échecs : patience. La menace Fxc6 puis Cxe5 n'existe vraiment qu'une fois d4 joué.
+pgn: e4 e5 Nf3 Nc6 Bb5 {Attaque le défenseur de e5.}
+ {=Défense Morphy} a6 {On demande au fou ce qu'il compte faire.}
+ ({=Défense berlinoise} Nf6 O-O Nxe4 d4 Nd6 Bxc6 dxc6 dxe5 Nf5 Qxd8+ Kxd8 {Le célèbre « mur de Berlin » : finale sans dames très solide pour les noirs.})
+ ({=Défense Steinitz} d6 d4 Bd7 Nc3 Nf6 O-O Be7 Re1 exd4 Nxd4 O-O {Solide mais passif : les blancs ont plus d'espace.})
+ ({=Défense Bird} Nd4 Nxd4 exd4 O-O c6 Bc4 Nf6 Re1 d6 c3 {Les blancs ouvrent le jeu contre le pion d4 avancé.})
+ Ba4 ({=Variante d'échange} Bxc6 dxc6 O-O f6 d4 exd4 Nxd4 c5 Nb3 Qxd1 Rxd1 {Les blancs visent une finale où leur majorité à l'aile roi compte.})
+ Nf6 O-O
+ {=Espagnole fermée} Be7
+ ({=Espagnole ouverte} Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Bc5 Nbd2 O-O {Jeu de pièces très actif des deux côtés.})
+ Re1 b5 Bb3 d6
+ ({=Attaque Marshall} O-O c3 d5 {Un pion sacrifié pour une attaque féroce sur le roi blanc.} exd5 Nxd5 Nxe5 Nxe5 Rxe5 c6 d4 Bd6 Re1 Qh4 g3 Qh3 {Les blancs doivent défendre avec précision : Fe3, Te4, Dd3.})
+ c3 O-O h3 {Empêche ...Fg4 et prépare d4.}
+ {=Variante Tchigorine} Na5 Bc2 c5 d4 Qc7 Nbd2 {Plan classique : Cf1-g3 et attaque lente à l'aile roi.}
+
+@scotch | Partie écossaise | C45 | open | w | 1 | g
+idea: Les blancs ouvrent le centre dès le 3e coup avec d4 : pas de longue manœuvre, de l'espace et des pièces libres.
+tip: Simple à apprendre : après 4.Cxd4, les blancs ont un beau centre. Contre 4...Cf6, 5.Cxc6 puis e5 chasse le cavalier.
+pgn: e4 e5 Nf3 Nc6 d4 {Ouvre le centre tout de suite.} exd4
+ Nxd4 {Reprend le pion avec un cavalier central.}
+ ({=Gambit écossais} Bc4 {Un pion pour l'attaque.} Nf6 ({=Retour à l'italienne} Bc5 c3 Nf6 cxd4 Bb4+ Bd2 Bxd2+ Nbxd2 d5 exd5 Nxd5 Qb3) e5 d5 Bb5 Ne4 Nxd4 Bd7 Bxc6 bxc6 O-O Bc5 f3 Ng5 {Jeu tranchant et ouvert.})
+ {=Variante Mieses} Nf6
+ ({=Variante classique} Bc5 Be3 Qf6 c3 Nge7 Bc4 Ne5 Be2 Qg6 O-O {Les blancs rendent un pion pour attaquer vite.})
+ ({=Variante Steinitz} Qh4 Nc3 Bb4 Be2 Qxe4 Nb5 Bxc3+ bxc3 Kd8 O-O)
+ Nxc6 bxc6 e5 {Chasse le cavalier.} Qe7 Qe2 Nd5 c4 Ba6 b3 {Les blancs gagnent de l'espace ; les noirs ont des pièces actives.}
+
+@vienna | Partie viennoise | C29 | open | w | 2 | g
+idea: Le cavalier c3 protège e4 avant de pousser f4 : un gambit du roi préparé, et beaucoup de pièges pour les noirs.
+tip: Contre 2...Cf6, 3.f4 est le gambit viennois : les noirs doivent répondre 3...d5. Contre 2...Cc6, le jeu est plus calme avec Fc4 et d3.
+pgn: e4 e5 Nc3 {Protège e4 et prépare f4.}
+ Nf6 ({=Variante 2...Cc6} Nc6 Bc4 Nf6 d3 Bc5 f4 d6 Nf3 {Gambit viennois retardé : les blancs ouvrent la colonne f.})
+ ({=Variante 2...Fc5} Bc5 Nf3 d6 d4 exd4 Nxd4 Nf6 Be2 O-O O-O {Développement normal.})
+ {=Gambit viennois} f4 {Le gambit !}
+ ({=Frankenstein-Dracula} Bc4 Nxe4 Qh5 Nd6 Bb3 Nc6 Nb5 g6 Qf3 f5 Qd5 Qe7 Nxc7+ Kd8 Nxa8 b6 {Une des ouvertures les plus folles : les noirs vont piéger le cavalier a8.})
+ d5 {La meilleure réponse : contre-attaque au centre.}
+ ({=Gambit accepté} exf4 e5 Ng8 Nf3 d6 d4 dxe5 Qe2 {Les blancs récupèrent le pion avec un beau centre.})
+ fxe5 Nxe4 Nf3 Be7 d4 O-O Bd3 f5 exf6 Bxf6 O-O {Colonne f ouverte et pièces actives pour les blancs.}
+
+@kingsgambit | Gambit du roi | C37 | gambit | w | 2 | g
+idea: Les blancs sacrifient le pion f pour détourner e5, dominer le centre avec d4 et ouvrir la colonne f vers f7.
+tip: Romantique et risqué : ton roi est exposé lui aussi. Après 3.Cf3, ...Dh4+ n'est plus possible.
+pgn: e4 e5 f4 {Le gambit.}
+ {=Gambit accepté} exf4
+ ({=Contre-gambit Falkbeer} d5 exd5 e4 d3 Nf6 dxe4 Nxe4 Nf3 Bc5 Qe2 {Les noirs ont du jeu actif pour le pion.})
+ ({=Gambit refusé classique} Bc5 Nf3 d6 c3 Nf6 d4 exd4 cxd4 Bb4+ Bd2 Bxd2+ Nbxd2 {Grand centre blanc.})
+ Nf3 {Empêche ...Dh4+.}
+ ({=Gambit du fou} Bc4 Qh4+ Kf1 d6 Nc3 Be6 Qe2 {Le roi blanc bouge, mais les noirs n'en profitent pas facilement.})
+ {=Défense classique} g5 {Les noirs gardent le pion f4.}
+ ({=Défense moderne} d5 exd5 Nf6 Bb5+ c6 dxc6 Nxc6 d4 Bd6 {Les noirs rendent le pion pour se développer.})
+ h4 {Attaque la chaîne de pions.} g4 {=Gambit Kieseritzky} Ne5 Nf6 Bc4 d5 exd5 Bd6 d4 Nh5 {Position très tactique : les deux rois sont exposés.}
+
+@danish | Gambit danois | C21 | gambit | w | 2 | g
+idea: Deux pions sacrifiés pour deux fous braqués sur l'aile roi noire et une avance de développement énorme.
+tip: Si les noirs prennent tout, attaque vite. Contre 5...d5 (la défense Schlechter), la finale est meilleure pour les noirs : connais-la.
+pgn: e4 e5 d4 exd4 c3 {Deuxième pion offert.}
+ dxc3 ({=Refus avec ...d5} d5 exd5 Qxd5 cxd4 Nf6 Nf3 Bb4+ Nc3 O-O Be2 {Position normale avec un pion isolé en d4.})
+ Bc4 {Troisième pion !} cxb2 Bxb2 {Deux fous braqués sur le roque noir.}
+ {=Défense Schlechter} d5 {La bonne réponse : rendre un pion.}
+ ({=Accepté gourmand} Bb4+ Nc3 Nf6 Ne2 O-O O-O d6 Nd5 {Les pièces blanches envahissent la position.})
+ Bxd5 Nf6 Bxf7+ Kxf7 Qxd8 Bb4+ Qd2 Bxd2+ Nxd2 {Finale : les noirs ont une pièce mineure pour deux pions, avantage noir.}
+
+@petrov | Défense Petrov | C42 | open | b | 2
+idea: Au lieu de défendre e5, les noirs attaquent e4. La position devient symétrique et très solide.
+tip: Après 3.Cxe5, ne reprends pas tout de suite en e4 (3...Cxe4 ? 4.De2 !) : d'abord 3...d6 qui chasse le cavalier.
+pgn: e4 e5 Nf3 Nf6 {Contre-attaque e4.}
+ Nxe5 ({=Attaque Steinitz} d4 Nxe4 Bd3 d5 Nxe5 Nd7 Nxd7 Bxd7 O-O Bd6 {Symétrie et égalité.})
+ ({=Quatre cavaliers} Nc3 Nc6 Bb5 Bb4 O-O O-O d3 d6)
+ {=Variante classique} d6 {Chasse le cavalier d'abord.}
+ ({=Piège 3...Cxe4 ?} Nxe4 Qe2 Qe7 Qxe4 d6 d4 dxe5 dxe5 {Les blancs ont gagné un pion.})
+ Nf3 Nxe4 d4 d5 Bd3 Nc6 O-O Be7 c4 Nb4 Be2 O-O Nc3 Bf5 {Position solide et active pour les noirs.}
+
+@philidor | Défense Philidor | C41 | open | b | 1
+idea: Les noirs soutiennent e5 avec le pion d6 : position solide mais un peu passive, le fou f8 reste derrière ses pions.
+tip: Bonne défense simple pour débuter ; trouve ensuite du contre-jeu avec ...c6, ...b5 ou ...exd4.
+pgn: e4 e5 Nf3 d6 {Défend e5 avec un pion.} d4
+ {=Variante Hanham} Nf6
+ ({=Variante d'échange} exd4 Nxd4 Nf6 Nc3 Be7 Be2 O-O O-O Re8 {Les noirs cèdent le centre mais se développent sans souci.})
+ Nc3 Nbd7 Bc4 Be7 O-O O-O Re1 c6 a4 {Structure compacte, les noirs attendent leur moment.}
+
+@fourknights | Partie des quatre cavaliers | C49 | open | w | 1
+idea: Les deux camps sortent leurs cavaliers d'abord : développement sain, position équilibrée.
+tip: Parfaite pour appliquer les principes : cavaliers, fous, roque. Peu de pièges à connaître.
+pgn: e4 e5 Nf3 Nc6 Nc3 Nf6
+ {=Espagnole des quatre cavaliers} Bb5
+ ({=Écossaise des quatre cavaliers} d4 exd4 Nxd4 Bb4 Nxc6 bxc6 Bd3 d5 exd5 cxd5 O-O O-O Bg5 c6 {Égalité dynamique.})
+ Bb4 ({=Défense Rubinstein} Nd4 Ba4 Bc5 Nxe5 O-O Nd3 Bb6 e5 Ne8 {Gambit dangereux : les noirs ont de l'initiative.})
+ O-O O-O d3 d6 Bg5 Bxc3 bxc3 Qe7 Re1 Nd8 d4 Ne6 {Le cavalier e6 chasse le fou qui clouait.}
+
+@ponziani | Ouverture Ponziani | C44 | open | w | 2
+idea: Les blancs préparent d4 dès le 3e coup avec c3. Peu jouée, donc riche en surprises.
+tip: Le pion c3 prend la case du cavalier b1 : contre ...d5 ou ...Cf6, il faut connaître les réponses.
+pgn: e4 e5 Nf3 Nc6 c3 {Prépare d4.}
+ Nf6 ({=Contre-attaque Jaenisch} d5 Qa4 f6 Bb5 Ne7 exd5 Qxd5 d4 Bd7)
+ d4 Nxe4 d5 Ne7 Nxe5 Ng6 Bd3 Nxe5 Bxe4 {Position ouverte et équilibrée.}
+
+@bishops | Ouverture du fou | C24 | open | w | 1
+idea: Le fou sort avant le cavalier pour garder le pion f libre. Jeu souple, souvent proche de l'italienne.
+tip: Pratique pour éviter la Petrov et garder l'option f4.
+pgn: e4 e5 Bc4 Nf6 d3
+ c6 ({=Variante 3...Cc6} Nc6 Nf3 Be7 O-O O-O Re1 d6 c3 {Comme une italienne calme.})
+ Nf3 d5 Bb3 Bd6 Nc3 dxe4 Ng5 O-O Ngxe4 Nxe4 Nxe4 Bf5 {Égalité.}
+
+@centergame | Partie du centre | C22 | open | w | 1
+idea: Les blancs ouvrent le centre avec d4 et reprennent avec la dame, puis grand roque et attaque.
+tip: La dame sort tôt : il faut la mettre à l'abri en e3 avant d'être chassé.
+pgn: e4 e5 d4 exd4 Qxd4 Nc6 {Gain de temps sur la dame.} Qe3 Nf6 Nc3 Bb4 Bd2 O-O O-O-O Re8 {Roques opposés : course à l'attaque.}
+
+@stafford | Gambit Stafford | C42 | gambit | b | 2 | g
+idea: Dans la Petrov, les noirs offrent un pion avec ...Cc6 et visent une attaque express sur f2 avec ...Fc5 et ...Cg4. Plein de pièges !
+tip: Contre un adversaire qui connaît la bonne défense (d3, Fe2, h3), les noirs ont juste un pion de moins. À jouer pour surprendre.
+pgn: e4 e5 Nf3 Nf6 Nxe5 Nc6 {Le gambit Stafford.} Nxc6 dxc6 {Les lignes s'ouvrent pour le fou c8 et la dame.}
+ d3 ({=Variante 5.e5 ?!} e5 Ne4 d3 Bc5 Be3 Bxe3 fxe3 Qh4+ g3 Nxg3 {Attaque dangereuse : les noirs menacent ...Cxh1.})
+ ({=Variante 5.Cc3} Nc3 Bc5 Bc4 Ng4 O-O Qh4 h3 Nxf2 Qf3 Nxh3+ Kh1 Nf2+ Kg1 {Les noirs ont gagné du matériel et attaquent.})
+ Bc5
+ {=Le piège principal} Bg5 {Semble clouer le cavalier...}
+ ({=Bonne défense} Be2 h5 c3 Ng4 Bxg4 hxg4 {Les blancs ont un pion de plus et restent solides.})
+ Nxe4 {...mais la dame noire se sacrifie !} Bxd8 Bxf2+ Ke2 Bg4# {Échec et mat !}
+
+@latvian | Gambit letton | C40 | gambit | b | 2 | g
+idea: Les noirs jouent ...f5 dès le 2e coup : un gambit du roi avec les noirs, très risqué mais plein de pièges.
+tip: Objectivement mauvais. Si les blancs prennent en f5, ...e4 et ...Cf6 montent des pièges sur f7.
+pgn: e4 e5 Nf3 f5 {Le gambit letton.}
+ {=Variante principale} Nxe5
+ ({=Piège 3.exf5} exf5 e4 Ne5 Nf6 Be2 d6 Bh5+ Ke7 Nf7 Qe8 Nxh8 {Les blancs gagnent la qualité.})
+ Qf6 d4 d6 Nc4 fxe4 Nc3 Qg6 f3 exf3 Qxf3 Nf6 Bd3 {Les blancs ont une avance de développement nette.}
+
+@elephantgambit | Gambit de l'éléphant | C40 | gambit | b | 2 | g
+idea: Les noirs répondent ...d5 au 2e coup pour ouvrir le jeu immédiatement. Pièges si les blancs prennent sans réfléchir.
+tip: Contre 3.exd5 e4 4.De2, pense à ...Cf6 et ...Fe7 : tu rends le pion mais tu te développes.
+pgn: e4 e5 Nf3 d5 {L'éléphant.} exd5
+ ({=Variante 3.Cxe5} Nxe5 Bd6 d4 dxe4 Bc4 Bxe5 dxe5 Qxd1+ Kxd1 {Finale sans dames, égalité.})
+ e4 Qe2 Nf6 d3 Be7 dxe4 O-O {Un pion de moins, mais du jeu rapide.}
+
+@centergambit | Gambit du centre (vs ...d5) | C21 | gambit | w | 2
+idea: Avec 3.c3 ou 3.Fc4, les blancs sacrifient le pion d4 pour se développer avant les noirs.
+tip: Même idée que le gambit danois mais plus prudente : le fou c4 et la colonne e ouverte suffisent souvent.
+pgn: e4 e5 d4 exd4 Nf3 Nc6 Bc4 Bc5 c3 Nf6 cxd4 Bb4+ Bd2 Bxd2+ Nbxd2 d5 exd5 Nxd5 Qb3 Nce7 O-O O-O
+
+@halloween | Gambit Halloween | C47 | gambit | w | 2 | g
+idea: Dans les quatre cavaliers, les blancs sacrifient un cavalier en e5 contre deux pions et un centre énorme qui chasse les pièces noires.
+tip: Objectivement douteux, mais redoutable en blitz : pousse d4, e5 et d5 avec gain de temps à chaque coup.
+pgn: e4 e5 Nf3 Nc6 Nc3 Nf6 Nxe5 {Le sacrifice !} Nxe5 d4 {Chasse le cavalier.}
+ Ng6 ({=Retraite en c6} Nc6 d5 Ne5 f4 Ng6 e5 Ng8 d6 {Les pions blancs écrasent la position.})
+ e5 Ng8 Bc4 {Toutes les pièces blanches sortent pendant que les noirs reculent.}
+
+@bongcloud | Ouverture Bongcloud | C20 | trap | w | 1 | g
+idea: La blague favorite de YouTube : 2.Re2 ! Le roi sort au 2e coup, contre tous les principes.
+tip: À ne jamais jouer en vraie partie : le roi bloque le fou et la dame, et il est exposé. Parfait pour rire avec un ami.
+pgn: e4 e5 Ke2 {Le roi part en promenade.} Nf6 Ke1 {Et il rentre...} Nxe4 {...en ayant perdu un pion. Leçon : on ne joue pas avec son roi.}

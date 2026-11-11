@@ -13,8 +13,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="Gambit">
-  <meta name="theme-color" content="#F2F2F7" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#302E2B" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#302E2B" media="(prefers-color-scheme: dark)">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="favicon.png"/>
 
@@ -22,19 +22,19 @@
   <link rel="manifest" href="manifest.json">
 
   <style>
-    html, body { margin: 0; height: 100%; background: #F2F2F7; }
-    @media (prefers-color-scheme: dark) { html, body { background: #000; } }
+    html, body { margin: 0; height: 100%; background: #302E2B; }
+    
     #loader {
       position: fixed; inset: 0; display: flex; flex-direction: column;
       align-items: center; justify-content: center; gap: 22px;
-      background: linear-gradient(135deg, #17804D, #1FA463 60%, #6FCF97);
+      background: linear-gradient(135deg, #262421, #302E2B 60%, #3B5A27);
       font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
       transition: opacity .4s ease;
     }
     #loader .logo {
-      width: 108px; height: 108px; border-radius: 30px; background: #fff;
+      width: 108px; height: 108px; border-radius: 30px; background: #81B64C;
       display: flex; align-items: center; justify-content: center;
-      font-size: 60px; font-weight: 800; color: #1FA463;
+      font-size: 60px; font-weight: 800; color: #fff;
       box-shadow: 0 14px 30px rgba(0,0,0,.15);
       animation: pop .9s cubic-bezier(.34,1.56,.64,1) both;
     }
@@ -54,7 +54,7 @@
       border-radius: 10px; padding: 8px 10px; margin: 0;
     }
     #help button {
-      border: 0; border-radius: 14px; padding: 12px 22px; background: #fff; color: #1FA463;
+      border: 0; border-radius: 14px; padding: 12px 22px; background: #81B64C; color: #fff;
       font: 700 16px -apple-system, BlinkMacSystemFont, sans-serif;
     }
     @keyframes pop { from { transform: scale(.4); opacity: 0 } to { transform: scale(1); opacity: 1 } }

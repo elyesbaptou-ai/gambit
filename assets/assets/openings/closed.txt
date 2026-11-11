@@ -1,0 +1,109 @@
+# Débuts fermés : 1.d4 d5 et systèmes
+
+@queensgambit | Gambit dame | D06 | closed | w | 1 | g
+idea: Le pion c4 attaque d5 depuis le flanc. Ce n'est pas un vrai gambit : si les noirs prennent, les blancs récupèrent presque toujours le pion.
+tip: Contre chaque défense, le plan reste le même : Cc3, Fg5 ou Ff4, e3, Cf3, et pression sur la colonne c.
+pgn: d4 d5 c4 {Attaque d5.}
+ {=Gambit dame refusé} e6 {Soutient d5.}
+ ({=Gambit dame accepté} dxc4 e3 {Menace de reprendre en c4.} ({=Variante centrale} e4 e5 Nf3 exd4 Bxc4 Nc6 O-O Be6) Nf6 Bxc4 e6 Nf3 c5 O-O a6 {Les noirs ont un jeu libre.})
+ ({=Défense slave} c6 Nf3 Nf6 Nc3 dxc4 a4 Bf5 e3 e6 Bxc4 Bb4 O-O O-O {Très solide.})
+ ({=Contre-gambit Albin} e5 dxe5 d4 Nf3 Nc6 g3 Be6 Nbd2 Qd7 Bg2 O-O-O O-O {Roques opposés.})
+ ({=Défense Tchigorine} Nc6 Nc3 dxc4 Nf3 Nf6 e4 Bg4 Be3 e6 Bxc4 Bb4 Qc2 O-O)
+ Nc3 Nf6
+ Bg5 {Clouage du cavalier f6.}
+ ({=Variante d'échange} cxd5 exd5 Bg5 c6 e3 Be7 Bd3 Nbd7 Qc2 O-O Nf3 Re8 {Plan blanc : l'attaque de minorité b4-b5.})
+ Be7 ({=Variante Cambridge Springs} Nbd7 e3 c6 Nf3 Qa5 {Clouage sur c3 et g5 à la fois.} Nd2 Bb4 Qc2 O-O Be2 e5)
+ e3 O-O Nf3 h6 Bh4 {=Variante Tartakower} b6 cxd5 Nxd5 Bxe7 Qxe7 Nxd5 exd5 Rc1 Be6 {Position classique et équilibrée.}
+
+@slav | Défense slave | D17 | closed | b | 2 | g
+idea: Le pion c6 soutient d5 sans enfermer le fou c8, qui sort en f5 ou g4 avant ...e6.
+tip: Très solide. Contre l'échange (cxd5), joue le symétrique et active tes pièces.
+pgn: d4 d5 c4 c6 {Soutient d5.}
+ Nf3 ({=Slave d'échange} cxd5 cxd5 Nc3 Nf6 Bf4 Nc6 e3 Bf5 Nf3 e6 {Symétrie : égalité.})
+ Nf6 Nc3
+ {=Slave principale} dxc4 ({=Variante Chebanenko} a6 e3 b5 b3 Bg4 h3 Bxf3 Qxf3 e6 {Les noirs gagnent de l'espace à l'aile dame.})
+ a4 {Empêche ...b5.} Bf5 e3 e6 Bxc4 Bb4 O-O O-O Qe2 Nbd7 {Développement harmonieux.}
+
+@semislav | Défense semi-slave | D45 | closed | b | 3
+idea: Triangle de pions c6-d5-e6 : une forteresse. Les noirs prennent en c4 au bon moment et gagnent du temps avec ...b5.
+tip: Mène à des positions parmi les plus complexes de la théorie (variantes Méran et Moscou).
+pgn: d4 d5 c4 c6 Nf3 Nf6 Nc3 e6 {Le triangle.}
+ e3 ({=Variante Moscou} Bg5 h6 Bxf6 Qxf6 e3 Nd7 Bd3 dxc4 Bxc4 g6 O-O Bg7 {Paire de fous pour les noirs.})
+ Nbd7 Bd3 dxc4 Bxc4 {=Variante de Méran} b5 Bd3 Bb7 O-O a6 e4 c5 d5 Qc7 {Jeu très dynamique.}
+
+@qga | Gambit dame accepté | D27 | closed | b | 2
+idea: Les noirs prennent c4 sans chercher à garder le pion : ils gagnent du temps pour jouer ...c5 et libérer leur jeu.
+tip: Ne t'accroche pas au pion c4 avec ...b5 trop tôt : c'est souvent un piège.
+pgn: d4 d5 c4 dxc4 Nf3 ({=Variante centrale} e4 e5 Nf3 exd4 Bxc4 Nc6 O-O Be6 {Les noirs rendent le pion contre un bon jeu.})
+ Nf6 e3 e6 Bxc4 c5 O-O a6
+ {=Variante classique} dxc5 ({=Variante 7.a4} a4 Nc6 Qe2 cxd4 Rd1 Be7 exd4 O-O {Pion isolé blanc.})
+ Qxd1 Rxd1 Bxc5 {Finale sans dames, égalité.}
+
+@tarraschdef | Défense Tarrasch | D34 | closed | b | 3
+idea: Les noirs acceptent un pion isolé en d5 contre des pièces très actives et des lignes ouvertes.
+tip: Le pion isolé est fort en milieu de partie (cases e4 et c4), faible en finale : garde les pièces !
+pgn: d4 d5 c4 e6 Nc3 c5 {La Tarrasch.} cxd5 exd5 Nf3 Nc6 {=Variante Rubinstein} g3 Nf6 Bg2 Be7 O-O O-O Bg5 cxd4 Nxd4 h6 Be3 Re8 {Le pion isolé contre le fianchetto blanc.}
+
+@chigorin | Défense Tchigorine | D07 | closed | b | 2
+idea: Les noirs répondent au gambit dame par des pièces plutôt que des pions : ...Cc6 et ...Fg4 mettent la pression sur d4.
+tip: Les noirs donnent souvent la paire de fous pour abîmer la structure blanche.
+pgn: d4 d5 c4 Nc6 {La Tchigorine.}
+ Nc3 ({=Variante 3.Cf3} Nf3 Bg4 cxd5 Bxf3 gxf3 Qxd5 e3 e5 Nc3 Bb4 Bd2 Bxc3 bxc3 exd4 {Pions blancs abîmés.})
+ dxc4 Nf3 Nf6 e4 Bg4 Be3 e6 Bxc4 Bb4 Qc2 O-O {Pression sur e4 et d4.}
+
+@albin | Contre-gambit Albin | D08 | gambit | b | 2 | g
+idea: Les noirs sacrifient un pion pour installer un pion gênant en d4 qui coupe la position blanche en deux.
+tip: Agressif et piégeux. Connais le piège de Lasker : après 4.e3 ?, ...Fb4+ et la sous-promotion en cavalier gagnent.
+pgn: d4 d5 c4 e5 {Le contre-gambit.} dxe5 d4 {Le pion d4 avancé gêne tout le jeu blanc.}
+ Nf3 ({=Piège de Lasker} e3 Bb4+ Bd2 dxe3 Bxb4 exf2+ Ke2 fxg1=N+ {Sous-promotion en cavalier avec échec !} Ke1 Qh4+ {Les noirs gagnent.})
+ Nc6 g3 Be6 ({=Variante 5...Fg4} Bg4 Bg2 Qd7 O-O O-O-O {Roques opposés.})
+ Nbd2 Qd7 Bg2 O-O-O O-O Bh3 {Les noirs attaquent sur l'aile roi avec ...h5-h4.}
+
+@london | Système de Londres | D02 | closed | w | 1 | g
+idea: Les blancs jouent presque toujours les mêmes coups : d4, Ff4, e3, c3, Cf3, Fd3, Cbd2. Structure en pyramide très solide, puis Ce5 et attaque.
+tip: Parfait pour débuter avec 1.d4 : peu de théorie. Contre ...c5 et ...Db6, connais la réponse Db3.
+pgn: d4 d5 ({=Contre ...Cf6 et ...g6} Nf6 Bf4 g6 e3 Bg7 Nf3 O-O Be2 d6 h3 c5 c3 Nc6 O-O {Même schéma contre l'est-indienne.})
+ Bf4 {Le fou sort avant e3.} Nf6 e3
+ c5 {La réponse la plus active.}
+ ({=Variante ...e6 et ...Fd6} e6 Nf3 Bd6 Bg3 O-O Bd3 c5 c3 Nc6 Nbd2 b6 Ne5 {Le cavalier e5 : base de l'attaque.})
+ ({=Variante ...Ff5} Bf5 Bd3 Bxd3 Qxd3 e6 Nf3 Bd6 Bxd6 Qxd6 Nbd2 {Les blancs préparent e4.})
+ c3 Nc6 Nd2 ({=Variante ...Db6} Nf3 Qb6 Qb3 c4 Qc2 Bf5 Qc1 {La dame se cache mais tout tient.})
+ e6 Ngf3 Bd6 Bg3 O-O Bd3 b6 Ne5 {Le cavalier e5 : base de l'attaque à l'aile roi.}
+
+@jobava | Jobava London | D00 | closed | w | 2 | g
+idea: Cc3 et Ff4 ensemble : une version bien plus agressive du Londres, avec la menace Cb5 et parfois le grand roque.
+tip: Contre ...Fd6, Cb5 force l'échange de ce fou. Les blancs visent souvent f3, g4 et une attaque de pions.
+pgn: d4 d5 Nc3 {Le Jobava.} Nf6 Bf4
+ e6 ({=Variante ...c5} c5 e3 cxd4 exd4 a6 Nf3 Nc6 Be2 Bf5 O-O {Pion isolé blanc, position active.})
+ ({=Variante ...Ff5} Bf5 f3 e6 g4 Bg6 h4 h6 e3 {Les pions blancs foncent.})
+ e3 Bd6 ({=Variante ...Fb4} Bb4 Bd3 c5 a3 Bxc3+ bxc3 Nc6 Nf3)
+ Nb5 {Menace Cxd6.} Bxf4 exf4 a6 Nc3 c5 Nf3 Nc6 Be2 {Structure originale : les blancs contrôlent e5.}
+
+@colle | Système Colle | D05 | closed | w | 1
+idea: Mise en place tranquille (e3, Fd3, c3, Cbd2, O-O), puis poussée e4 pour ouvrir le jeu et libérer le fou c1.
+tip: Tout tourne autour de la poussée e3-e4 au bon moment.
+pgn: d4 d5 Nf3 Nf6 e3
+ e6 ({=Contre le fianchetto} g6 Bd3 Bg7 Nbd2 O-O O-O c5 c3 Nbd7)
+ Bd3 c5 c3 Nc6 Nbd2 Bd6 O-O O-O dxc5 Bxc5 e4 {La poussée libératrice.}
+
+@stonewallattack | Attaque Stonewall | D00 | closed | w | 1
+idea: Pions d4, e3 et f4 : un mur qui contrôle e5. Le cavalier s'y installe et l'attaque vise le roi noir.
+tip: Simple et efficace contre les joueurs qui ne savent pas casser le mur avec ...c5 et ...Fb4.
+pgn: d4 d5 e3 Nf6 Bd3 e6 f4 {Le mur.} c5 c3 Nc6 Nd2 Bd6 Ngf3 O-O O-O Qc7 Ne5 {Le cavalier e5 et l'attaque Tf3-h3.}
+
+@blackmar | Gambit Blackmar-Diemer | D00 | gambit | w | 2 | g
+idea: Les blancs sacrifient le pion e4 pour ouvrir la colonne f et lancer une attaque rapide sur le roque noir.
+tip: Un pion contre du temps : joue Fd3, O-O, De1-h4 et vise h7 et f7.
+pgn: d4 d5 e4 {Le gambit.} dxe4 Nc3 Nf6 f3 exf3 Nxf3
+ {=Défense Teichmann} Bg4
+ ({=Défense Euwe} e6 Bg5 Be7 Bd3 Nc6 O-O Nxd4 Kh1 {Attaque contre un pion de moins.})
+ ({=Défense Bogoljubov} g6 Bc4 Bg7 O-O O-O Qe1 Nc6 Qh4 {La dame rejoint l'attaque.})
+ ({=Défense Gunderam} Bf5 Ne5 e6 g4 Bg6 Qf3 c6 h4 {Les pions blancs avancent.})
+ h3 Bxf3 Qxf3 c6 Be3 e6 Bd3 Nbd7 O-O {Paire de fous et colonne f contre un pion.}
+
+@catalan | Ouverture catalane | E04 | closed | w | 3
+idea: Un gambit dame avec le fou en g2 : il exerce une pression à long terme sur la grande diagonale vers b7.
+tip: Les blancs récupèrent presque toujours le pion c4 en gardant un petit avantage durable.
+pgn: d4 Nf6 c4 e6 g3 {La catalane.} d5 Bg2
+ {=Catalane ouverte} dxc4 ({=Catalane fermée} Be7 Nf3 O-O O-O c6 Qc2 Nbd7 Nbd2 b6 e4 Bb7 {Les blancs gagnent de l'espace au centre.})
+ Nf3 Be7 O-O O-O Qc2 a6 Qxc4 b5 Qc2 Bb7 Bd2 {Le fou g2 face au fou b7 : la lutte de la grande diagonale.}

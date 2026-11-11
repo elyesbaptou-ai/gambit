@@ -1,0 +1,57 @@
+# Pièges et mats express
+
+@scholar | Mat du berger | C20 | trap | w | 1 | g
+idea: Dame et fou visent ensemble f7, protégé seulement par le roi. Si les noirs ne voient pas la menace : mat en 4 coups.
+tip: Pour le parer avec les noirs : ...g6 ou ...De7. Avec les blancs, sortir la dame si tôt est ensuite une perte de temps.
+pgn: e4 e5 Bc4 Nc6 Qh5 {Menace Dxf7#.}
+ Nf6 {L'erreur : le cavalier attaque la dame mais ne défend pas f7.}
+ ({=Bonne défense ...g6} g6 Qf3 Nf6 Ne2 Bg7 Nbc3 d6 h3 O-O {Les noirs sont mieux développés.})
+ ({=Bonne défense ...De7} Qe7 Nc3 Nf6 d3 Na5 {Les noirs chassent le fou.})
+ Qxf7# {Mat !}
+
+@foolsmate | Mat de l'imbécile | A02 | trap | b | 1 | g
+idea: Le mat le plus rapide possible : les blancs ouvrent eux-mêmes la diagonale de leur roi.
+tip: Leçon : ne pousse pas les pions f et g sans raison en début de partie.
+pgn: f3 e5 g4 Qh4# {Mat en 2 coups.}
+
+@legal | Mat de Légal | C41 | trap | w | 2
+idea: Les blancs « offrent » leur dame : si les noirs la prennent, trois pièces mineures donnent mat.
+tip: Un clouage n'est pas absolu quand la pièce clouée peut partir avec une menace plus forte.
+pgn: e4 e5 Nf3 d6 Bc4 Bg4 Nc3 g6 Nxe5 {Le cavalier cloué part quand même !} Bxd1 Bxf7+ Ke7 Nd5# {Mat !}
+
+@petrovtrap | Piège de la Petrov | C42 | trap | w | 1
+idea: Si les noirs prennent e4 trop vite, la dame en e2 prépare un échec à la découverte qui gagne la dame noire.
+tip: La colonne e ouverte entre les deux rois : un cavalier qui se déplace peut découvrir un échec.
+pgn: e4 e5 Nf3 Nf6 Nxe5 Nxe4 Qe2 Nf6 Nc6+ {Échec à la découverte : la dame noire tombe.}
+
+@noahsark | Piège de l'arche de Noé | C77 | trap | b | 2
+idea: Le fou espagnol se fait enfermer par les pions noirs a6-b5-c4.
+tip: Avec les blancs dans l'espagnole : ne reprends pas en d4 avec la dame, joue plutôt c3.
+pgn: e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 d4 b5 Bb3 Nxd4 Nxd4 exd4 Qxd4 c5 Qd5 Be6 Qc6+ Bd7 Qd5 c4 {Le fou b3 est pris au piège.}
+
+@mortimer | Piège Mortimer | C65 | trap | b | 2
+idea: Dans l'espagnole berlinoise, les noirs reculent ...Ce7 : si les blancs prennent e5, ...c6 et ...Da5+ gagnent une pièce.
+tip: Un coup bizarre peut cacher un piège : regarde toujours pourquoi l'adversaire laisse un pion.
+pgn: e4 e5 Nf3 Nc6 Bb5 Nf6 d3 Ne7 Nxe5 c6 Ba4 Qa5+ {Double attaque sur le roi et le cavalier e5.}
+
+@blackburne | Piège Blackburne-Shilling | C50 | trap | b | 2 | g
+idea: Les noirs offrent le pion e5. Si les blancs le prennent, la dame noire entre en g5 et le mat étouffé suit.
+tip: Avec les blancs : ne prends pas e5, joue simplement O-O ou c3.
+pgn: e4 e5 Nf3 Nc6 Bc4 Nd4 Nxe5 Qg5 Nxf7 Qxg2 Rf1 Qxe4+ Be2 Nf3# {Mat étouffé !}
+
+@fishingpole | Piège de la canne à pêche | C65 | trap | b | 2 | g
+idea: Dans l'espagnole, ...Cg4 tend un appât : si les blancs prennent avec h3xg4, la colonne h s'ouvre pour la dame et la tour noires.
+tip: Avec les blancs, ignore l'appât (c3, d4) : le cavalier g4 n'y fait rien.
+pgn: e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Ng4 {L'appât.}
+ h3 ({=Réponse calme} c3 Bc5 d4 Bb6 {Les blancs sont mieux.})
+ h5 hxg4 hxg4 Ne1 Qh4 f3 g3 {Mat imparable en h2 puis h1.}
+
+@elephant | Piège de l'éléphant | D51 | trap | b | 2
+idea: Les blancs croient gagner un pion grâce au clouage, mais ...Fb4+ récupère la dame avec une pièce de plus.
+tip: Avant de prendre un pion « gratuit », cherche les échecs intermédiaires.
+pgn: d4 d5 c4 e6 Nc3 Nf6 Bg5 Nbd7 cxd5 exd5 Nxd5 Nxd5 Bxd8 Bb4+ Qd2 Bxd2+ Kxd2 Kxd8 {Les noirs ont une pièce de plus.}
+
+@monticelli | Piège Monticelli | E15 | trap | w | 3
+idea: Dans l'ouest-indienne, Cg5 découvre le fou g2 sur b7 et menace Dxh7# en même temps.
+tip: Deux menaces en un coup : la double attaque est l'arme tactique la plus forte.
+pgn: d4 Nf6 c4 e6 Nf3 b6 g3 Bb7 Bg2 Bb4+ Bd2 Bxd2+ Qxd2 O-O Nc3 Ne4 Qc2 Nxc3 Ng5 {Double menace : Fxb7 et Dxh7#.} Ne4 Bxe4 Bxe4 Qxe4 Qxg5 Qxa8 {Les blancs gagnent la qualité.}
